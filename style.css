@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    /* Enables CSS flexbox */
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    height: 100vh;
+    /* Full height to demonstrate vertical centering */
+    flex-direction: column
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
+
+#decrementButton {
+    background-color: #f44336;
+}
+
+#resetButton {
+    background-color: #008CBA;
+}
+
+#incrementButton {
+    background-color: #04AA6D;
+}
